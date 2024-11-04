@@ -105,15 +105,8 @@ Calculated Columns - Subscription Duration (Months) = DATEDIFF(CustomerData[Subs
 ![Excel Visual Representation for Customer Subscription Services](https://github.com/user-attachments/assets/2c998bd5-3db7-4a50-8d89-795296535b63)
 
 
-
-
-
-
-
-
-
-
-
-
-
+## PowerBI - Subscription Services Analysis Dashboard
+![Customer Segmentation by Subscription Type](https://github.com/user-attachments/assets/5dfa76b0-756f-4719-b08a-dd3e0d9dce81)
+![Cancellation Trend Overtime](https://github.com/user-attachments/assets/6dcc9a83-cd2c-4198-a5f2-e2ae93603422)
+![Subscription Trend Overtime](https://github.com/user-attachments/assets/fee05cf3-cef6-4cf8-b926-bad8831a8b93)
 
