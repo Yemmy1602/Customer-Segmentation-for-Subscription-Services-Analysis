@@ -19,6 +19,8 @@ The dataset includes columns such as:
 - SubscriptionStart and SubscriptionEnd: Start and end dates of each subscription.
 - Canceled: Boolean flag indicating whether the subscription was canceled.
 
+### Data Sources
+The data used for this work is gotten from my project work.
 
 ## Key Metrics
 - Total Customers: Total number of customers.
@@ -34,3 +36,80 @@ The dataset includes columns such as:
 - Monthly Active Subscriptions: Number of active subscriptions over time.
 - Active Subscriptions by Region: Distribution of active subscriptions by region.
 - Average Subscription Duration: Average subscription length across all customers.
+
+
+## Tools Used
+- Excel: For preliminary data analysis and calculations.
+- SQL: For querying and extracting insights from the customer and subscription data.
+- Power BI: For interactive visualizations and dashboard creation.
+- DAX (Data Analysis Expressions): For calculating key performance metrics such as churn rate, revenue per customer, and subscription trends.
+
+## Data Cleaning and Preparation
+- Data Loading and Inspection (Duplicates information were removed)
+- No Missing Variables
+- Creation of Calculated columns and measures
+
+## Data Analysis
+The following are the Excel formulas, SQL codes, DAX Expressions used during my Analysis
+```
+EXCEL FORMULA
+Average Subscription Duration	= (12) =DATEDIF(@Sheet1!E:E,@Sheet1!F:F, "M")
+
+SQLITE CODES
+1. SELECT Region, COUNT(DISTINCT CustomerID) AS TotalCustomers
+FROM CustomerData
+GROUP BY Region;
+
+2. SELECT TOP 1 SubscriptionType, COUNT(CustomerID) AS NumberOfCustomers
+FROM CustomerData
+GROUP BY SubscriptionType
+ORDER BY NumberOfCustomers DESC;
+
+3. SELECT CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd, canceled
+FROM CustomerData
+WHERE Canceled = 'TRUE' 
+  AND DATEDIFF(Month, 31/01/2022, 31/12/2024) <= 6;
+
+4. SELECT AVG(DATEDIFF(Month, 31/01/2022, 31/12/2024)) AS AverageSubscriptionDuration
+FROM CustomerData
+
+5. SELECT CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd
+FROM CustomerData
+WHERE DATEDIFF(month, 31/01/2022, 31/12/2024) > 12;
+ 
+6. SELECT SubscriptionType, SUM(Revenue) AS TotalRevenue
+FROM CustomerData
+GROUP BY SubscriptionType
+ORDER BY TotalRevenue DESC
+ 
+7. SELECT TOP 3 Region, COUNT(CustomerID) AS Cancellations
+FROM CustomerData
+WHERE Canceled = 'TRUE'
+GROUP BY Region
+ORDER BY Cancellations DESC
+
+8. SELECT CASE WHEN Canceled = 'TRUE' THEN 'Canceled' ELSE 'Active' END AS SubscriptionStatus, COUNT(CustomerID) AS Total_Count
+FROM CustomerData
+GROUP BY canceled;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
