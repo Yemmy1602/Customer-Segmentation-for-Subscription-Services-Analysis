@@ -98,15 +98,11 @@ Average Subscription Duration = AVERAGE(CustomerData[Subscription Duration (Mont
 Total Revenue = SUM(CustomerData[Revenue])
 TotalCustomers = DISTINCTCOUNT(CustomerData[CustomerID])
 Calculated Columns - Subscription Duration (Months) = DATEDIFF(CustomerData[SubscriptionStart],CustomerData[SubscriptionEnd],MONTH)
+```
 
-
-
-
-
-
-
-
-
+## Microsoft Excel View for Analysis
+![Excel Formula and Pivot Tables for CustomerData](https://github.com/user-attachments/assets/af4b2473-9e4c-4cf2-bf49-455d80368927)
+![Excel Visual Representation for Customer Subscription Services](https://github.com/user-attachments/assets/2c998bd5-3db7-4a50-8d89-795296535b63)
 
 
 
