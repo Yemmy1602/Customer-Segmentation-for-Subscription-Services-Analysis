@@ -92,6 +92,14 @@ ORDER BY Cancellations DESC
 FROM CustomerData
 GROUP BY canceled;
 
+DAX MEASURES USED IN POWERBI
+Average Subscription Duration = AVERAGE(CustomerData[Subscription Duration (Months)]
+)
+Total Revenue = SUM(CustomerData[Revenue])
+TotalCustomers = DISTINCTCOUNT(CustomerData[CustomerID])
+Calculated Columns - Subscription Duration (Months) = DATEDIFF(CustomerData[SubscriptionStart],CustomerData[SubscriptionEnd],MONTH)
+
+
 
 
 
