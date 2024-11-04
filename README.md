@@ -104,7 +104,7 @@ Calculated Columns - Subscription Duration (Months) = DATEDIFF(CustomerData[Subs
 ![Excel Formula and Pivot Tables for CustomerData](https://github.com/user-attachments/assets/af4b2473-9e4c-4cf2-bf49-455d80368927)
 ![Excel Visual Representation for Customer Subscription Services](https://github.com/user-attachments/assets/2c998bd5-3db7-4a50-8d89-795296535b63)
 
-## SQLITE VIEWS
+## SQLITE Views
 ![SQLite Queries CustomerData view](https://github.com/user-attachments/assets/9e65b1b9-7211-45cd-a411-a1c67da987bd)
 ![SQLite Queries CustomerData II view](https://github.com/user-attachments/assets/55c9a596-34f0-4a3d-919d-cacc53632a8b)
 
