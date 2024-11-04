@@ -148,5 +148,15 @@ The similar average revenue values suggest effective pricing strategies across t
 
 5. Revenue by Region: East region generates the highest revenue ($37 million), with South, West, and North each contributing $15 million. This distribution suggests a concentration of high-value customers in the East, likely due to a larger or more engaged customer base. Targeting other regions with strategies to boost engagement or acquire new customers could balance the revenue distribution.
    
+## Recommendations
+- Focus on Upselling: Consider campaigns to move Basic subscribers to Premium or Standard plans to increase revenue.
+- Regional Targeting: Prioritize customer engagement and retention in South and West regions due to their revenue contribution.
+- Analyze Basic Subscribers: Identify what attracts customers to Basic, and assess if adding value to Premium could convert Basic users to higher tiers.
+- Analyze Reasons for April Spike: Conduct surveys or analyze feedback around April to understand why cancellations peak during this period.
+- Customer Retention Strategies: Develop programs aimed at enhancing value perception across all regions, as the cancellation trend is consistent geographically.
+- Offer Renewal Incentives: Provide incentives for customers considering cancellation, especially around peak cancellation times.
+- Regional Campaigns for Subscription Type Preference: Tailor marketing efforts in each region to align with their preferred subscription types, potentially increasing conversions by targeting the right customer profiles.
+- Seasonal Promotions: Consider promotional efforts during lower activity months (e.g., February) to maintain engagement and prevent churn.
+- Revenue Growth in Other Regions: Focus on customer acquisition or engagement programs in South, West, and North regions to reduce dependency on East for revenue.
 
 
