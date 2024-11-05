@@ -29,7 +29,7 @@
 - [Data Visualization](#data-visualization)
 
 
-- [Visual Analysis and Overall Insights](#visual-analysis-and-overall-insights)
+- [Visual Analysis](#visual-analysis)
 
 
 - [Recommendations](#recommendations)
