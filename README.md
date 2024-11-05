@@ -26,7 +26,7 @@
 - [Data Analysis](#data-analysis)
 
 
-- [Data Visualization](#data-visualization)
+- [Data Visualizations](#data-visualizations)
 
 
 - [Visual Analysis](#visual-analysis)
