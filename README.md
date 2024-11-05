@@ -5,7 +5,7 @@
 This project analyzes customer data for a subscription service to understand customer behavior, identify key trends in cancellations and renewals, and uncover insights into 
 customer segmentation by subscription type. The goal is to use data-driven insights to improve customer retention, optimize subscription offerings, and drive revenue growth. 
 
-## Objectives
+## Project Objectives
 - Understand the distribution of customers by subscription type and identify top revenue-generating customers.
 - Track and analyze cancellation trends to identify points of dissatisfaction.
 - Analyze subscription activity over time and region, focusing on customer engagement and revenue performance.
