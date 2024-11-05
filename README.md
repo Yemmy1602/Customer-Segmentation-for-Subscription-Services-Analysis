@@ -1,4 +1,40 @@
-# Subscription Service Analysis
+# Customer Segmentation for Subscription Services
+
+
+## Table of Contents
+- [Project Overview](#project.overview)
+
+
+- [Project Objectives](#project.objectives)
+
+
+- [Data Collected](#data.collected)
+
+
+- [Data Sources](#data.sources)
+
+
+- [Key Metrics](#key.metrics)
+
+
+- [Tools Used](#tools.used)
+
+
+- [Data Cleaning and Preparation](#data.cleaning.and.preparation)
+
+
+- [Data Analysis](#data.analysis)
+
+
+- [Data Visualization](#data.visualization)
+
+
+- [Visual Analysis and Overall Insights](#visual.analysis.and.overall.insights)
+
+
+- [Recommendations](#recommendations)
+
+
 
 ## Project Overview
 
