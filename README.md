@@ -2,34 +2,34 @@
 
 
 ## Table of Contents
-- [Project Overview](#project.overview)
+- [Project Overview](#project-overview)
 
 
-- [Project Objectives](#project.objectives)
+- [Project Objectives](#project-objectives)
 
 
-- [Data Collected](#data.collected)
+- [Data Collected](#data-collected)
 
 
-- [Data Sources](#data.sources)
+- [Data Sources](#data-sources)
 
 
-- [Key Metrics](#key.metrics)
+- [Key Metrics](#key-metrics)
 
 
-- [Tools Used](#tools.used)
+- [Tools Used](#tools-used)
 
 
-- [Data Cleaning and Preparation](#data.cleaning.and.preparation)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 
 
-- [Data Analysis](#data.analysis)
+- [Data Analysis](#data-analysis)
 
 
-- [Data Visualization](#data.visualization)
+- [Data Visualization](#data-visualization)
 
 
-- [Visual Analysis and Overall Insights](#visual.analysis.and.overall.insights)
+- [Visual Analysis and Overall Insights](#visual-analysis-and-overall-insights)
 
 
 - [Recommendations](#recommendations)
