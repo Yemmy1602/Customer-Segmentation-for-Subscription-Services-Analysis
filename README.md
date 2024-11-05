@@ -99,17 +99,18 @@ Total Revenue = SUM(CustomerData[Revenue])
 TotalCustomers = DISTINCTCOUNT(CustomerData[CustomerID])
 Calculated Columns - Subscription Duration (Months) = DATEDIFF(CustomerData[SubscriptionStart],CustomerData[SubscriptionEnd],MONTH)
 ```
+## Data Visualizations
 
-## Microsoft Excel View for Analysis
+### Microsoft Excel View for Analysis
 ![Excel Formula and Pivot Tables for CustomerData](https://github.com/user-attachments/assets/af4b2473-9e4c-4cf2-bf49-455d80368927)
 ![Excel Visual Representation for Customer Subscription Services](https://github.com/user-attachments/assets/2c998bd5-3db7-4a50-8d89-795296535b63)
 
-## SQLITE Views
+### SQLITE Views
 ![SQLite Queries CustomerData view](https://github.com/user-attachments/assets/9e65b1b9-7211-45cd-a411-a1c67da987bd)
 ![SQLite Queries CustomerData II view](https://github.com/user-attachments/assets/55c9a596-34f0-4a3d-919d-cacc53632a8b)
 
 
-## PowerBI - Subscription Services Analysis Dashboard
+### PowerBI - Subscription Services Analysis Dashboard
 ![Customer Segmentation by Subscription Type](https://github.com/user-attachments/assets/5dfa76b0-756f-4719-b08a-dd3e0d9dce81)
 ![Cancellation Trend Overtime](https://github.com/user-attachments/assets/6dcc9a83-cd2c-4198-a5f2-e2ae93603422)
 ![Subscription Trend Overtime](https://github.com/user-attachments/assets/fee05cf3-cef6-4cf8-b926-bad8831a8b93)
